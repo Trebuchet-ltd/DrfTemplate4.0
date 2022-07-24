@@ -4,8 +4,6 @@ import os
 load_dotenv(".env")
 settings = os.getenv('SETTINGS')
 debug = os.getenv('DEBUG')
-print(settings)
-print(debug)
 
 if settings == "dev":
     print("DEVELOPMENT SERVER")
