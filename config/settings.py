@@ -5,6 +5,7 @@ load_dotenv(".env")
 settings = os.getenv('SETTINGS')
 debug = os.getenv('DEBUG')
 
+
 if settings == "dev":
     print("DEVELOPMENT SERVER")
     from .development_settings import *
